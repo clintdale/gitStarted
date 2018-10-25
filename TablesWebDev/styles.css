@@ -1,0 +1,37 @@
+body{
+	background-image: url("tennis_court.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	color: black;
+
+}
+
+table{
+	margin: 100px 0px 0px 200px;
+	width: 80%;
+	opacity: .7;
+
+}
+
+table, th, td{
+	border:2px yellow solid;
+
+
+}
+
+td, th{
+	text-align: center;
+	padding: 10px;
+}
+
+tr:nth-child(even){
+	background-color: #e8e8e8;
+
+}
+tr:nth-child(odd){
+	background-color: white;
+}
+.sidebar, th{
+	background-color: #2b4e2d;
+	color: white;
+}
