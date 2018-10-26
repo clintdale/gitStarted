@@ -1,0 +1,117 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'PT Serif', serif;
+	color: white;
+	letter-spacing: 3px;
+
+}
+
+h1, h3{
+	text-align: center;
+	padding-bottom: 10px;
+
+}
+
+
+
+
+.container{
+	width: 100%;
+	margin:auto;
+		background-color: #706963;
+	
+
+}
+
+header{
+	text-align: center;
+	padding: 5px;
+	width: 100%;
+	background-color: #A9602D;
+	padding: 25px;
+	color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.colcontainer{
+
+	float: left;
+	display: table;
+
+}
+
+#col1{
+
+	width: 25%;
+	display: table-cell;
+	
+	padding: 0 25px 0 25px;
+
+
+}
+#col1 img{
+	display: block;
+	margin-bottom: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#col2{
+	display: table-cell;
+	text-align: center;
+
+	width: 50%;
+	padding: 0 25px 0 25px;
+	margin-top: 25px;
+}
+#col2 p{
+	padding-bottom: 25px;
+	padding-top: 25px;
+}
+
+#col2 img{
+	width: 300px;
+	display: block;
+	
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, .7), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#col3{
+
+	display: table-cell;
+	text-align: right;
+	padding: 0 25px 0 25px;
+}
+#col3 p{
+	padding-bottom: 25px;
+	text-align: left;
+	font-style: italic;
+
+
+}
+.italic{
+
+	font-weight: bold;
+	
+}
+
+footer{
+	text-align: center;
+	font-weight: bold;
+	background-color: gray;
+	color: white;
+
+}
+
