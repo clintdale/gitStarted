@@ -1,0 +1,116 @@
+*{
+	padding: 0;
+	margin: 0;
+	
+}
+html{
+	height: 100%;
+}
+
+body{
+	letter-spacing: 2px;
+	background-color: #eef1f5;
+	font-family: 'Cute Font', cursive;
+	height: 100%;
+
+	
+}
+.container{
+	width: 100%;
+	
+
+}
+
+header{
+	padding: 25px;
+	text-align: center;
+	box-shadow: 0 4px 8px 0;
+	font-size: 1.5em;
+	background-color: #e7f0fd;
+}
+
+nav {
+	text-decoration: none;
+	text-align: center;
+	width: 100%;
+	margin-top: 25px;
+	
+}
+
+nav a{
+	text-decoration: none;
+	font-size: 2em;
+
+}
+nav ul{
+	margin: 0;
+	padding: 0;
+
+}
+
+nav li{
+	display: inline;
+	padding-right: 25px;
+}
+nav a{
+	color: black;
+}
+
+.main-content{
+	
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom: 20px;
+}
+.main-content ul{
+	list-style: none;
+
+}
+.main-content ul li{
+	position: relative;
+	border: 3px black solid;
+	margin: 25px;
+	background-color: #e2ebf0;
+
+}
+
+.blog{
+	font-size: 2em;
+	text-align: center;
+	padding: 50px;
+}
+h3, p{
+	text-align: left;
+	margin-left: 120px;	
+}
+
+.blog img{
+	height: 150px;
+	width: 150px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+}
+footer{
+	position: absolute;
+	bottom: -35%;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	background: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: auto;
+	background-color: #6991c7;
+
+
+}
+footer p{
+	text-align: center;
+}
+
+.bottom{
+	bottom: 0;
+}
