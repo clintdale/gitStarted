@@ -1,0 +1,28 @@
+
+.col1, .col2{
+  width: 45%;
+}
+.col3{
+  width: 100%;
+}
+@media screen and (max-width:740px) {
+  .main-content{
+    width: 100%;
+    float: none;
+  }
+  .sidebox{
+    float: none;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .col1, .col2, .col3{
+    float: none;
+    width: 100%;
+  }
+  .sidebox-1{
+    display: none;
+
+  }
+}
