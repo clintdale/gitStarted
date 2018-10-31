@@ -1,8 +1,9 @@
 body{
-background-image: linear-gradient(to top, #005bea 0%, #00c6fb 100%);
+ background-image: linear-gradient(to top, #005bea 0%, #00c6fb 100%);
  background-size: cover;
  background-attachment: fixed;
  background-color: blue;
+ font-family: "Times New Roman", Times, serif;
 }
 .container{
 	margin: auto;
@@ -10,14 +11,16 @@ background-image: linear-gradient(to top, #005bea 0%, #00c6fb 100%);
 	padding: 25px;
 	border-radius: 5px;
 	margin-bottom: 10px;
-	background-color: white;
+	background-color: #eeeeee;
 }
 
-h2{
+h2,h1{
 	text-align: center;
 }
-
 input{
-
+	background-color: white;
+}
+.submit{
+	color: black
 }
 
