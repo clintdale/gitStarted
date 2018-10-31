@@ -1,0 +1,23 @@
+body{
+background-image: linear-gradient(to top, #005bea 0%, #00c6fb 100%);
+ background-size: cover;
+ background-attachment: fixed;
+ background-color: blue;
+}
+.container{
+	margin: auto;
+	width: 80%;
+	padding: 25px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	background-color: white;
+}
+
+h2{
+	text-align: center;
+}
+
+input{
+
+}
+

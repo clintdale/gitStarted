@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<h2>Advising Appointment</h2>
+	<div class="container">
+		<form method="get" action="thankyou.html">
+        <fieldset>
+          <legend>
+            Contact Information
+
+          </legend> 
+          <label for="first">
+            Name: <input id="first" autofocus="" required type="text" name="fname" placeholder="First Name">
+          </label>
+          <label for="last">
+            Last Name: <input id="last" required type="text" name="lname" placeholder="Last Name">
+          </label>
+          <label for="emailAdd">
+            Email: <input id="emailAdd" required type="email" name="email" placeholder="Email">
+        </label>
+        </fieldset>
+        
+
+        <fieldset>
+        	<legend>
+        		Reservation Request
+        	</legend>
+        	<select name="advisor">
+        		<option value="Tiffanyford">Tiffany Ford</option>
+        		<option value="KirstenMarkley">Kirsten Markley</option>
+        		<option value="ReneeRiley">Renee Riley</option>
+        	</select>
+        	<select name="month">
+        		<option value="Jan">January</option>
+        		<option value="Feb">February</option>
+        		<option value="Mar">March</option>
+        		<option value="April">April</option>
+        		<option value="May">May</option>
+        		<option value="Jun">June</option>
+        		<option value="July">July</option>
+        		<option value="Aug">August</option>
+        		<option value="Sep">September</option>
+        		<option value="Oct">October</option>
+        		<option value="Nov">November</option>
+        		<option value="Dec">December</option>
+        	</select>
+        	<input class="days" type="number" name="day" min="1" max="31" value="1" required="">
+
+        	<input type="radio" name="ampm" value="AM" required>AM
+        	<input type="radio" name="ampm" required>PM
+
+        </fieldset>
+        <fieldset>
+        	<legend>
+        		Classes You Want To Take Next Semester:
+        	</legend>
+        	<input type="radio" name="Java">Java
+        	<input type="radio" name="C#">C#
+        	<input type="radio" name="WebDev">Web Dev
+        	<input type="radio" name="sql">Database
+        	<input type="radio" name="sad">System Analysis and Design
+        </fieldset>
+        <fieldset>
+        	<legend>
+        		Additional Info
+        	</legend>
+        	<textarea rows="10" cols="50" name="info" placeholder="Any Additional Info">
+        		
+        	</textarea>
+        </fieldset>
+        <input class="submit" type="submit" value="Submit" name="extraInfo" >
+
+	</form>
+	
+
+	</div>
+	
+</body>
+</html>
