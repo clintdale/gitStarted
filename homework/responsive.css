@@ -1,0 +1,51 @@
+
+
+
+@media screen and (min-width: 380px) {
+
+	.sidebox-1{
+		display: block;
+	}
+	
+}
+
+@media screen and (min-width: 550px){
+	.main-content{
+		width: 100%;
+		float: none;
+	}
+	img{
+		float: left;
+	}
+	.col1, .col2 {
+	  float:left;
+	  width:45%;
+	  margin-right:5%;
+	}
+	.col3{
+	  width:100%;
+	}
+}
+
+@media screen and (min-width: 900px) {
+	.col1, .col2, .col3 {
+	  float:left;
+	  width:30%;
+	  margin-right:5%;
+	}
+	.sidebar{
+		width: 30%;
+		float: left;
+	}
+	.main-content{
+	width: 65%;
+	float: left;
+	margin-right: 5%;
+
+	}
+	.col3{
+  		margin-right: 0%;
+	}
+	.clearfix:after { content: ""; display: table;clear: both; }
+	
+}
